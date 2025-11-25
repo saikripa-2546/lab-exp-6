@@ -1,0 +1,167 @@
+I’ve chosen “Hospital Appointment Booking App” as the base problem (since you
+mentioned it as an example).
+Everything is explained in detail and formatted professionally.
+1. Solution Ideation
+UX Problem:
+Users find it difficult to book appointments quickly in a hospital app due to confusing
+navigation, overcrowded screens, and lack of clarity on available time slots.
+Crazy 8’s / Brainwriting – 8 Ideas (Low Fidelity)
+Idea 1 – Quick Appointment Button
+ Home screen has one large “Book Appointment” button.
+ Auto-detects nearest available doctor.
+Idea 2 – Smart Search
+ Search bar suggests doctors by symptoms (e.g., “fever → General Physician”).
+Idea 3 – Calendar-First Flow
+ User first sees a calendar → chooses date → app shows all available doctors for that
+date.
+Idea 4 – Specialty Tiles
+ Big tiles: Pediatrics, ENT, Dermatology, Orthopedics, etc.
+ Users tap → see available doctors → book.
+Idea 5 – Voice-Based Appointment
+ User speaks: “Book a dermatologist appointment tomorrow at 10 AM.”
+ App shows matching slots.
+Idea 6 – Doctor Comparison View
+ Side-by-side comparison of fees, experience, reviews.
+Idea 7 – Chatbot Appointment Helper
+ Chat-style interface asking:
+“What issue are you facing? When do you want to come?”
+Idea 8 – Emergency Fast Track
+ 1-click button for emergency cases → shows nearest available doctors with shortest
+waiting time.
+2. Creating User Stories
+Here are 5 user stories in correct format:
+User Story 1
+As a working professional, I want to book an appointment quickly, so that I don't waste
+time navigating through the app.
+User Story 2
+As a first-time user, I want to search doctors by symptoms, so that I can find the right
+specialist without medical knowledge.
+User Story 3
+As a parent, I want to view available pediatricians, so that I can choose the best doctor for
+my child.
+User Story 4
+As a senior citizen, I want to see a simple and large interface, so that I can use the app
+without confusion.
+User Story 5
+As a patient with chronic illness, I want to view my previously visited doctors, so that I can
+easily rebook follow-up appointments.
+3. Creating Scenarios (Based on User Story 1)
+User Story Selected:
+“As a working professional, I want to book an appointment quickly so that I don’t waste time
+navigating through the app.”
+Scenario Narrative
+User: Rahul, 28, Software Engineer
+Environment: Office desk, 10-minute break
+Emotional State: Stressed, in a hurry
+Rahul has been experiencing severe headaches for two days. During a short break at work,
+he opens the hospital app to book an appointment. Because he has limited time, he wants
+the process to be fast and simple.
+He taps the Quick Appointment button on the home screen. The app shows top available
+doctors for “General Physician.” Rahul selects a doctor and sees clearly displayed available
+time slots. The interface is clean, with large buttons and no clutter.
+He chooses a 6 PM appointment, confirms payment, and receives a notification.
+Rahul feels relieved that he managed to book the appointment within two minutes and can
+return to work without stress.
+4. Task Flow Diagram (Example: Ordering Food in an App)
+Represented textually:
+ ┌──────────┐
+ │ Start │
+ └─────┬────┘
+ │
+ ┌─────────▼─────────┐
+ │ Open Food App │
+ └─────────┬─────────┘
+ │
+ ┌─────────▼─────────┐
+ │ Browse / Search │
+ └─────────┬─────────┘
+ │
+ ┌─────────▼─────────┐
+ │ Select Restaurant │
+ └─────────┬─────────┘
+ │
+ ┌─────────▼─────────┐
+ │ Choose Food Items 
+└─────────┬─────────┘
+ │
+ ┌──────▼───────┐
+ │ Add to Cart │
+ └──────┬────────┘
+ │
+ ┌──────▼────────┐
+ │ View Cart │
+ └──────┬────────┘
+ │
+ ┌──────▼────────┐
+ │ Checkout │
+ └──────┬────────┘
+ │
+ ┌──────▼────────┐
+ │ Payment Done? │
+ └──────┬────────┘
+ Yes │
+ ▼
+ ┌──────────┐
+ │ Order Placed │
+ └──────────┘
+5. Information Architecture (IA)
+Example App: University Website
+Card Sorting (Open Sort Results – Example)
+Participants grouped cards into the following categories:
+Category 1 – Academics
+ Courses
+ Departments
+ Syllabus
+ Faculty
+Category 2 – Admissions
+ Apply Now
+ Eligibility
+ Fee Structure
+ Entrance Exam Details
+Category 3 – Student Services
+ Hostel
+ Transport
+ Scholarships
+ Counseling
+Category 4 – Campus Life
+ Clubs
+ Events
+ Sports
+ Gallery
+Category 5 – About University
+ History
+ Vision & Mission
+ Administration
+ Contact
+Site Map (Based on Card Sorting)
+Home
+│
+├── About University
+│ ├── History
+│ ├── Vision & Mission
+│ ├── Administration
+│ └── Contact
+│
+├── Academics
+│ ├── Courses
+│ ├── Departments
+│ ├── Syllabus
+│ └── Faculty
+│
+├── Admissions
+│ ├── Apply Now
+│ ├── Eligibility
+│ ├── Fee Structure
+│ └── Entrance Exam
+│
+├── Student Services
+│ ├── Hostel
+│ ├── Scholarships
+│ ├── Transport
+│ └── Counseling
+│
+└── Campus Life
+ ├── Clubs
+├── Events
+ ├── Sports
+ └── Gallery
